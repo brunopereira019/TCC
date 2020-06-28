@@ -1,0 +1,225 @@
+/* FORMATAR TUDO */
+
+#body{ 
+    <style>
+	background-image: url("publilc_html/imagens/fundo1.jpg");
+	background-repeat: repeat;</style>
+}
+
+
+.centromenu{
+	
+}
+#geral {
+	background-color: #FFFFFF;
+	padding: 12px;
+	width: 826px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+/* MENU */
+#menu ul {
+	margin-left: 200px;
+	padding: 0px;
+
+}
+#menu li {
+	list-style-type: none;
+	float: left;
+
+}
+#menu li a {
+	font-family: Verdana, Geneva, sans-serif;
+	text-decoration: none;
+	padding: 12px;
+	display: block;
+}
+
+/* COR QUANDO PASSA O MOUSE */
+#menu li a:hover {
+	color:#FFF;
+	background-color:#FF8838; /* LARANJA */
+}
+
+
+#menu {
+	border-bottom-width: 1px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #0080BB;
+}
+/* TERMINA MENU */
+
+
+
+
+
+/* TITULOS */
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	color: #0080BB;
+}
+
+/* subtitulo 8*/
+h2 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 17px;
+	color: #FF8838;
+}
+
+
+/* PREÇOS */
+h22 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	color: #FF8838;
+}
+
+
+/* CONTEUDOS */
+#conteudo {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	text-align: justify;
+}
+#rodape {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #FFF;
+	background-color: #0080BB;
+	text-align: center;
+	padding: 15px;
+}
+#conteudo_esq {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0080BB;
+	padding-right: 10px;
+	width: 500px;
+	float: left;
+	margin-bottom: 30px;
+}
+p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	line-height: 20px;
+}
+#conteudo_dir {
+	float: left;
+	width: 295px;
+	text-align: center;
+}
+#conteudo_dir p img {
+	padding: 3px;
+	border: 1px solid #03366B;
+}
+/* TERMINA CONTEUDOS */
+
+
+
+
+
+
+/* CONTATO */
+.formContato {  
+     width: 100%;  
+   }  
+   .formContato input {  
+     width: 90%;  
+     margin-left: 10px;  
+     margin-right: 10px;  
+   }  
+   .formContato textarea {  
+     width: 90%;  
+     margin-left: 10px;  
+     margin-right: 10px;  
+   }  
+   .botaoContato {  
+     margin-left: 10px;  
+     margin-right: 10px;  
+     margin-top: 1px;  
+   }  
+   .pgContato input {  
+     padding-left: 20px;  
+     color: #292929;  
+     font-size: 18px;  
+     background-color: #E9E9E9;  
+     border: 1px solid #E9E9E9;  
+     -moz-border-radius: 5px;  
+     -webkit-border-radius: 5px;  
+     border-radius: 5px;  
+     height: 40px;  
+     margin-bottom: 20px;  
+     border-bottom: 1px solid #ccc;  
+     border-left: 1px solid #ccc;  
+   }  
+   .pgContato textarea {  
+     padding-left: 20px;  
+     color: #292929;  
+     font-size: 18px;  
+     background-color: #E9E9E9;  
+     border: 1px solid #E9E9E9;  
+     -moz-border-radius: 5px;  
+     -webkit-border-radius: 5px;  
+     border-radius: 5px;  
+     height: 200px;  
+     margin-bottom: 20px;  
+     border-bottom: 1px solid #ccc;  
+     border-left: 1px solid #ccc;  
+   }  
+   .botaoContato {  
+     border-radius: 4px;  
+     color: #fff;  
+     padding: 2px 40px;  
+     height: 40px;  
+     margin-top: 18px;  
+     opacity: 0.9;  
+     margin-bottom: 20px;  
+     cursor: pointer;  
+     background: #FF8838; /* COR BOTAO ENVIAR */
+    display: inline-block;  
+     border: none;  
+     border-bottom: 1px solid #500707;  
+     border-right: 1px solid #500707;  
+   }  
+   .botaoContato:hover {  
+     opacity: 1.0;  
+     transition: 1s;  
+   }  
+   
+  /* ACABA CONTATO */
+  
+  
+  
+  
+  /* galeria */
+
+    #gallery {
+        background-color: #fff;
+        padding: 10px;
+        width: auto;
+    }
+    #gallery ul { list-style: none; }
+    #gallery ul li { display: inline; }
+    #gallery ul img {
+        border: 5px solid #444444;
+        border-width: 5px 5px 20px;
+    }
+    #gallery ul a:hover img {
+        border: 5px solid #fff;
+        border-width: 5px 5px 20px;
+        color: #fff;
+    }
+    #gallery ul a:hover { color: #fff; }
+
+#prime { color:#FFF; }
+	
